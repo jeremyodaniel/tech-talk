@@ -4,7 +4,4 @@ const User = require('./User');
 const Vote = require('./Vote')
 
 
-module.exports = { Comment };
-module.exports = { Post };
-module.exports = { User };
-module.exports = { Vote };
+module.exports = { User, Comment, Post, Vote };
